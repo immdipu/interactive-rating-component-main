@@ -1,0 +1,196 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+
+    width: 50vh;
+    height: 292px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    padding-left: 23px;
+    padding-right: 29px;
+}
+
+.star {
+
+    display: inline-flex;
+    background-color: hsl(216deg 29% 28%);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    margin-top: 23px;
+}
+
+.question h1 {
+    font-family: Overpass;
+    color: hsl(0, 0%, 100%);
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.question p {
+    font-family: Overpass;
+    color: hsla(0, 0%, 100%, 0.751);
+    word-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    height: 38px;
+    width: 39px;
+    background-color: hsl(216deg 19% 24%);
+    border: none;
+    border-radius: 50%;
+    color: hsla(0, 0%, 100%, 0.751);
+    cursor: pointer;
+}
+
+.submitbtn {
+    height: 30px;
+    width: 100%;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsla(0, 0%, 100%, 0.751);
+    border-radius: 22px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: revert;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsla(0, 0%, 89%, 0.751);
+}
+
+.btn:focus {
+    background-color: hsl(25, 97%, 53%);
+
+}
+
+.submitbtn:active {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.container2 {
+
+    height: 292px;
+    margin: auto;
+    margin-top: 151px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    padding-left: 23px;
+    padding-right: 29px;
+    width: 56vh;
+
+}
+
+.phone {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating {
+    background-color: hsl(216deg 19% 24%);
+    width: 87%;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-family: 'Overpass';
+    font-size: 15px;
+    border-radius: 23px;
+}
+
+.phone h1 {
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.byemsg {
+    color: rgba(240, 248, 255, 0.658);
+    font-family: 'Overpass';
+    font-size: 12px;
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    margin-left: -140px;
+    margin-top: -32px;
+    width: 212px;
+    background: #1e0000;
+    height: 22px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 11px;
+    font-family: revert;
+    color: red;
+    border-radius: 20px
+}
+
+
+
+@media (max-width:400px) {
+    .container {
+
+        width: 50vh;
+        height: 292px;
+        margin: auto;
+        margin-top: 45%;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 18px;
+        padding-left: 23px;
+        padding-right: 29px;
+    }
+
+
+    .container2 {
+        height: 292px;
+        margin: auto;
+        margin-top: 151px;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 18px;
+        padding-left: 23px;
+        padding-right: 29px;
+        width: 43vh;
+        margin-right: 62px;
+
+    }
+
+
+}
